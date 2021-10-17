@@ -3,10 +3,11 @@
 利用paddledetection框架复现论文DetectoRS: Detecting Objects with Recursive Feature Pyramid and Switchable Atrous Convolution](https://paperswithcode.com/paper/detectors-detecting-objects-with-recursive-1)
 
 训练命令：
+```  
 python -u tools/train.py -c configs/detectors/cascade_rcnn_r50_rfp_1x_coco.yml
+```  
 
-
-一、标题写法：
+<!-- 一、标题写法：
 第一种方法：
 1、在文本下面加上 等于号 = ，那么上方的文本就变成了大标题。等于号的个数无限制，但一定要大于0个哦。。
 2、在文本下面加上 下划线 - ，那么上方的文本就变成了中标题，同样的 下划线个数无限制。
@@ -67,5 +68,5 @@ protected void onDestroy() {
  
 8、引用
 > 第一行引用文字  
-> 第二行引用文字   
+> 第二行引用文字    -->
 
