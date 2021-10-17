@@ -15,7 +15,7 @@
 
  
 
-训练命令：
+训练命令：（ RFP Cascade + ResNet-50）
 ```  
 python -u tools/train.py -c configs/detectors/cascade_rcnn_r50_rfp_1x_coco.yml
 ```  
