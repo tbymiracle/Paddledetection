@@ -1,6 +1,19 @@
-# PaddleDetection-detectors
+# PaddleDetection-DetectoRS
 
-利用paddledetection框架复现论文DetectoRS: Detecting Objects with Recursive Feature Pyramid and Switchable Atrous Convolution](https://paperswithcode.com/paper/detectors-detecting-objects-with-recursive-1)
+利用PaddleDetection框架复现论文DetectoRS: Detecting Objects with Recursive Feature Pyramid and Switchable Atrous Convolution](https://paperswithcode.com/paper/detectors-detecting-objects-with-recursive-1)
+
+1.利用PaddleDetection框架新增模型算法
+ ppdet/modeling/architectures/detectors.py
+ ppdet/modeling/backbones/detectors_resnet.py
+ ppdet/modeling/necks/rfp.py
+
+2.模型DetectoRS参数配置
+ Method  | Detector  | Config
+ ---- | ----- | ------  
+ RFP  | Cascade + ResNet-50 | [config](https://github.com/tbymiracle/Paddledetection/configs/detectors/cascade_rcnn_r50_rfp_1x_coco.yml)  
+ DetectoRS  | Cascade + ResNet-50 | [config](https://github.com/tbymiracle/Paddledetection/configs/detectors/detectors_rcnn_r50_rfp_1x_coco.yml)  
+
+ 
 
 训练命令：
 ```  
