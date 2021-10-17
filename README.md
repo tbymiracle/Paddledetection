@@ -10,8 +10,8 @@
 2.模型DetectoRS参数配置
  Method  | Detector  | Config
  ---- | ----- | ------  
- RFP  | Cascade + ResNet-50 | [config](https://github.com/tbymiracle/Paddledetection/configs/detectors/cascade_rcnn_r50_rfp_1x_coco.yml)  
- DetectoRS  | Cascade + ResNet-50 | [config](https://github.com/tbymiracle/Paddledetection/configs/detectors/detectors_rcnn_r50_rfp_1x_coco.yml)  
+ RFP  | Cascade + ResNet-50 | [config](hhttps://github.com/tbymiracle/Paddledetection/blob/master/configs/detectors/cascade_rcnn_r50_rfp_1x_coco.yml)  
+ DetectoRS  | Cascade + ResNet-50 | [config](https://github.com/tbymiracle/Paddledetection/blob/master/configs/detectors/detectors_rcnn_r50_rfp_1x_coco.yml)  
 
  
 
