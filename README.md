@@ -15,11 +15,12 @@
 
  
 
-训练命令：（ RFP Cascade + ResNet-50）
+3.训练命令：（ RFP Cascade + ResNet-50）
 ```  
 python -u tools/train.py -c configs/detectors/cascade_rcnn_r50_rfp_1x_coco.yml
 ```  
-
+4.mmdetection预训练模型转换成paddle，下载地址为
+‘链接: https://pan.baidu.com/s/1I19luoHYwiSAxm-vLqlGMQ  密码: 1cs3’
 <!-- 一、标题写法：
 第一种方法：
 1、在文本下面加上 等于号 = ，那么上方的文本就变成了大标题。等于号的个数无限制，但一定要大于0个哦。。
