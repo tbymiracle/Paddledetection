@@ -1,5 +1,7 @@
 # PaddleDetection-DetectoRS
 
+## 简介
+
 利用PaddleDetection框架复现论文DetectoRS: Detecting Objects with Recursive Feature Pyramid and Switchable Atrous Convolution](https://paperswithcode.com/paper/detectors-detecting-objects-with-recursive-1)
 
 1.利用PaddleDetection框架新增模型算法
@@ -19,8 +21,11 @@
 ```  
 python -u tools/train.py -c configs/detectors/cascade_rcnn_r50_rfp_1x_coco.yml
 ```  
-4.mmdetection预训练模型转换成paddle，下载地址为
-链接: https://pan.baidu.com/s/1I19luoHYwiSAxm-vLqlGMQ  密码: 1cs3
+## 复现步骤
+1。 模型结构对齐
+ * 网络结构代码转换
+ * 权重转换 转换完成的模型链接: https://pan.baidu.com/s/1I19luoHYwiSAxm-vLqlGMQ  密码: 1cs3
+ * 模型组网正确性验证
 <!-- 一、标题写法：
 第一种方法：
 1、在文本下面加上 等于号 = ，那么上方的文本就变成了大标题。等于号的个数无限制，但一定要大于0个哦。。
