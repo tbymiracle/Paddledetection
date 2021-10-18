@@ -22,7 +22,7 @@
 python -u tools/train.py -c configs/detectors/cascade_rcnn_r50_rfp_1x_coco.yml
 ```  
 ## 复现步骤
-1。 模型结构对齐
+#### 模型结构对齐
  * 网络结构代码转换
  * 权重转换 转换完成的模型链接: https://pan.baidu.com/s/1I19luoHYwiSAxm-vLqlGMQ  密码: 1cs3
  * 模型组网正确性验证
